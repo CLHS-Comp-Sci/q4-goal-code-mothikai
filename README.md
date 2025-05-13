@@ -5,3 +5,13 @@ Create a new READMe repository for each goal that should be met. Title "GOAL #",
 Upload your code from your preffered IDE underneath the Readme for the corresponding goal
 
 Depending on your specific goals you may have 3 different repositories or no repositories. 
+
+
+Goal #2
+
+The files I added to the repository contain 2 HTML files that represent my Home page, and All Products page, an the other two files are CSS files that support the html.
+
+The purpose of the files is to showcase an example website built from scratch and show the CSS can change a regular html site into something more decorative and user friendly.
+
+This meets my goal of making the website more eye-friendly to the user.
+
