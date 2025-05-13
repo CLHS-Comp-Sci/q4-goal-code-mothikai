@@ -1,0 +1,65 @@
+/*ALL PAGE CSS*/
+
+.title {
+  color: #ff8a00;
+}
+header {
+  text-align: center;
+}
+body {
+  background-color: #eafaf9;
+}
+.navLinks {
+  font-size: medium;
+}
+.title {
+  text-align: center;
+}
+
+/*DESCRIBES PRODUCT CARD LAYOUT*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px 100px;
+}
+
+.card {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+  max-width: 216px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+/*PRODUCT CARD SPECF ATTRIBUTES*/
+.productName {
+  font-size: 25px;
+}
+
+.price {
+  color: grey;
+  font-size: 15px;
+}
+
+.info {
+  font-size: 12px;
+}
+
+/*BUTTON ATTRIBUTES*/
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,173 @@
+/*ALL PAGE CSS*/
+
+.title {
+  color: #ff8a00;
+}
+header {
+  text-align: center;
+}
+body {
+  background-color: #eafaf9;
+}
+.navLinks {
+  font-size: medium;
+}
+.title {
+  text-align: center;
+}
+
+/* AD BLOCK CSS*/
+.adContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d2a6de;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 166, 222, 1) 0%,
+    rgba(255, 255, 255, 0.28) 50%,
+    rgba(232, 121, 121, 1) 100%
+  );
+  height: 600px;
+}
+.lavIMG {
+  margin-right: auto;
+  max-width: 300px;
+  height: auto;
+  padding-left: 50px;
+}
+.roseIMG {
+  margin-left: auto;
+  max-width: 300px;
+  height: auto;
+  padding-right: 50px;
+}
+.centerTXT {
+  text-align: center;
+  font-size: 50px;
+}
+
+/*NEW PRODUCTS CSS*/
+.newProdSec {
+  padding: 57px;
+  text-align: center;
+  margin-top: 78px;
+  overflow: hidden;
+}
+.npsecTitle {
+  font-size: 1.5em;
+  margin-bottom: 57px;
+}
+.imgContainer {
+  padding-bottom: 56px;
+}
+.imgContainer img {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  border-radius: 29px;
+
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.allProd {
+  text-decoration: none;
+  color: #ff8a00;
+  font-weight: bold;
+}
+
+/*SUPPORT US CSS*/
+
+.supportUsSec {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: rgba(255, 138, 0, 0.41);
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.supportUsSec h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.support-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.location,
+.follow {
+  text-align: center;
+  padding: 20px;
+}
+.location .icon,
+.follow .icon {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+.location p,
+.follow p {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.eventName,
+.eventTime {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.instaLink {
+  color: #c13584;
+  text-decoration: none;
+  font-weight: bold;
+}
+.instaLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments  */
+@media (max-width: 768px) {
+  /*AD BLOCK CSS    ADJUSTED FOR SMALL SCREENS*/
+  .adContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(
+      180deg,
+      rgba(210, 166, 222, 1) 0%,
+      rgba(255, 255, 255, 0.28) 50%,
+      rgba(232, 121, 121, 1) 100%
+    );
+    height: auto;
+  }
+  .lavIMG,
+  .roseIMG {
+    margin: 10px 0;
+    max-width: 80%;
+    padding: 0px;
+  }
+  .centerTXT {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /*NEW PRODUCTS CSS    ADJUSTED FOR SMALL SCREENS*/
+  .imgContainer img {
+    margin: 10px 0;
+  }
+
+  /*SUPPORT US CSS    ADJUSTED FOR SMALL SCREENS*/
+  .support-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location,
+  .follow {
+    margin-bottom: 20px;
+  }
+}
